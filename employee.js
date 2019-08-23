@@ -1,5 +1,7 @@
 //this file contains behavior and data
 
+let Employee = {};
+
 let salary = 100000;
 
 let payGrades = {
