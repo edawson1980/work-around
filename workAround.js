@@ -1,6 +1,7 @@
 //this file uses the data
 
-import {Employee, cadre, tax, benefits, bonus, reimbursement} from './employee';
+import {getCadre, calculateTax, getBenefits, calculateBonus, reimbursementEligibility} from './employee';
+import Employee from './employee';
 
 function getEmployeeInformation(inputSalary) {
   Employee.salary = inputSalary;
